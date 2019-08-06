@@ -6,7 +6,7 @@ namespace ChessConsole
     {
         static void Main(string[] args)
         {
-            
+                
         }
     }
 }
