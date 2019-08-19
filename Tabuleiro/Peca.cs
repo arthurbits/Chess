@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ChessConsole.Tabuleiro
+﻿namespace tabuleiro
 {
     class Peca
     {
@@ -18,5 +14,7 @@ namespace ChessConsole.Tabuleiro
             cor = c;
             QuantidadeMovimentos = 0;
         }
+
+
     }
 }

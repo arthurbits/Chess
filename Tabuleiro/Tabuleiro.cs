@@ -1,5 +1,5 @@
 ﻿
-namespace ChessConsole.Tabuleiro
+namespace tabuleiro
 {
     class Tabuleiro
     {
@@ -13,6 +13,10 @@ namespace ChessConsole.Tabuleiro
             pecas = new Peca[linhas, colunas];
         }
 
+        public Peca peca(int linha, int coluna)
+        {
+            return pecas[linha, coluna];
+        }
        
     }
 }
